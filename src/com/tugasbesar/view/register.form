@@ -210,6 +210,9 @@
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="btnRegister">
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnRegisterMouseClicked"/>
+          </Events>
 
           <Layout>
             <DimensionLayout dim="0">
